@@ -1,0 +1,64 @@
+.card-wrap{
+    position: relative;
+    height: 50%;
+    width: 100%;
+}
+.card{
+    position: relative;
+    box-sizing: border-box;
+    padding: 40px 75px;
+    width: 65%;
+    font-size: 20px;
+}
+
+.card-nav{
+    width: 65%;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.card-nav span{
+    -webkit-user-select: none; /* Chrome/Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+ */
+
+    /* Rules below not implemented in browsers yet */
+    -o-user-select: none;
+    user-select: none;
+}
+.previous:before{
+    content: '\< ';
+}
+.next:after{
+    content: '\ >';
+}
+
+.card-counter{
+    position: absolute;
+    display: block;
+    right: 10px;
+    top: 10px;
+    font-weight: bold;
+    font-size: 25px;
+}
+.card-title{
+    width: fit-content;
+    position: relative;
+    border-bottom: 3px solid #34A5DA;
+}
+.card-detail{
+    display: block;
+    line-height: 1.7;
+    
+}
+.card-detail span{
+    font-weight: bold;
+}
+
+.card-ol{
+    margin-top: 0;
+    line-height: 2;
+}
+
+.card-ol li{
+    padding-left: 10px;
+}

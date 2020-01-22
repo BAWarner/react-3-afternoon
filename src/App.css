@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +41,84 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/**
+==================
+      Utility
+==================
+**/
+.pointer{
+  cursor: pointer;
+}
+.bg-blue{
+  background-color: #34A5DA;
+}
+.bg-black{
+  background-color: #212121;
+}
+.bg-white{
+  background-color: #EBEBEB;
+}
+.height-100vh{
+  height: 100vh;
+}
+.mrg-top{
+  margin-top: 25px;
+}
+
+/**
+=======================
+      Typography
+=======================
+**/
+
+.white{
+  color: #ebebeb;
+}
+
+/**
+=======================
+      Buttons
+=======================
+**/
+
+button{
+  border: unset;
+  border-radius: 10px;
+  padding: 5px 10px;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0px 10px;
+}
+
+button:focus{
+  outline: none;
+}
+
+button.bg-blue{
+  color: #ebebeb;
+}
+
+/**
+================
+      Flex
+================
+**/
+
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+}
+.align-top{
+  align-items: flex-start;
+}
+.align-center{
+  align-items: center;
+}
+.justify-center{
+  justify-content: center;
+}
+.justify-between{
+  justify-content: space-between;
 }
