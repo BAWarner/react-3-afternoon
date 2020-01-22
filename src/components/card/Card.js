@@ -16,9 +16,9 @@ var Card = (props) => {
             <h1 className='card-title'>{person.name.first} {person.name.last}</h1>
 
             <div>
-                <span className='card-detail'><span>From:</span> {person.city}</span>
+                <span className='card-detail'><span>From:</span> {person.city}, {person.country}</span>
                 <span className='card-detail'><span>Job Title:</span> {person.title}</span>
-                <span className='card-detail'><span>Employer:</span> {person.title}</span>
+                <span className='card-detail'><span>Employer:</span> {person.employer}</span>
                 <span className='card-detail mrg-top'><span>Favorite Movies:</span></span>
                 <ol className='card-ol'>
                     {favoriteMovies}
